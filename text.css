@@ -1,0 +1,71 @@
+body {
+    background: #BDBDBD;
+  }
+  #calcContainer {
+    width: 40%;
+    height: auto;
+    box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+  }
+  .result-clear {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .result-clear input[type=text].result {
+    width: 72%;
+    height: 60px;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    border: 0;
+    padding-top: 2%;
+    padding-left: 5%;
+  }
+  .grid-buttons {
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    background: #212121;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type=button] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #ffffff;
+    background: #212121;
+    border: 2px solid #212121;
+    flex-grow: 1;
+    width: 25%;
+    height: auto;
+    padding: 5%;
+    border: 0;
+    align-items: center;
+    text-align: center;
+  }
+  input[type=button]:focus {
+    outline: 0;
+  }
+  input[type=button].clear {
+    background: #009688;
+    border: 2px solid #009688;
+    width: 25.5%;
+    font-size: 20px;
+  }
+  .grid-buttons input[type=button].math {
+    background: #757575;
+    border: 2px solid #757575;
+  }
+  .grid-buttons input[type=button]:hover,
+  input[type=button].clear:hover {
+    border: 2px solid #00BCD4;
+    transition: 0.3s ease;
+    background: #00BCD4;
+  }
+
